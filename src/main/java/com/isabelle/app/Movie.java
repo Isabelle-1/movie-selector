@@ -106,8 +106,16 @@ public class Movie {
 		Movie sadMovie10 = new Movie("sad", "Little Women");
 		
 		
-		sadMovieOptions.add(sadMovie1);
-		sadMovieOptions.add(sadMovie2);
+	sadMovieOptions.add(sadMovie1);
+	sadMovieOptions.add(sadMovie2);
+	sadMovieOptions.add(sadMovie3);
+	sadMovieOptions.add(sadMovie4);
+	sadMovieOptions.add(sadMovie5);
+	sadMovieOptions.add(sadMovie6);
+	sadMovieOptions.add(sadMovie7);
+	sadMovieOptions.add(sadMovie8);
+	sadMovieOptions.add(sadMovie9);
+	sadMovieOptions.add(sadMovie10);
 
 		String moods = myObj.nextLine(); // Read user input
 		System.out.println("how many suggestions would you like");
@@ -116,6 +124,9 @@ public class Movie {
 			for (int i = 0; i < numberOfMovies; i++)
 				System.out.println(movieOptions.get(i));
 		} else if (moods.equalsIgnoreCase("sad")) {
+			for (int i = 0; i < numberOfMovies; i++)
+				System.out.println(sadMovieOptions.get(i));
+		}else if (moods.equalsIgnoreCase("adventurous")) {
 			for (int i = 0; i < numberOfMovies; i++)
 				System.out.println(sadMovieOptions.get(i));
 		}
