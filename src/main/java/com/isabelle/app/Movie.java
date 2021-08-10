@@ -46,16 +46,7 @@ public class Movie {
 		this.title = title;
 	}
 
-	// loop through array list and select three movies based on mood (start with
-	// one)
 
-	// if happy -- movie1 movie2 movie3
-
-	// if sad -- movie1 movie2 movie3
-
-	// if angry -- movie1 movie2 movie3
-
-	// other(else) -- movie1 movie2 movie3
 
 	public void Play() {
 		// ask user to input mood
@@ -66,6 +57,9 @@ public class Movie {
 		System.out.println("Need a good cry: sad");
 		System.out.println("Want some adventure: adventurous");
 		System.out.println("Anything else: Other");
+		
+		String moods = myObj.nextLine(); // Read user input
+		System.out.println("how many suggestions would you like");
 
 		// array list to store possible movies
 		ArrayList<Movie> movieOptions = new ArrayList<Movie>();
@@ -90,7 +84,7 @@ public class Movie {
 		movieOptions.add(happyMovie8);
 		movieOptions.add(happyMovie9);
 		movieOptions.add(happyMovie10);
-
+		// array list to store possible sadMovies
 		ArrayList<Movie> sadMovieOptions = new ArrayList<Movie>();
 		Movie sadMovie1 = new Movie("sad", "The fault in our stars");
 		Movie sadMovie2 = new Movie("sad", "Paper towns");
@@ -113,7 +107,7 @@ public class Movie {
 		sadMovieOptions.add(sadMovie8);
 		sadMovieOptions.add(sadMovie9);
 		sadMovieOptions.add(sadMovie10);
-
+		// array list to store possible adventurousMovies
 		ArrayList<Movie> adventurousMovieOptions = new ArrayList<Movie>();
 		Movie adventurousMovie1 = new Movie("adventurous", "Journey To Mysterious Island");
 		Movie adventurousMovie2 = new Movie("adventurous", "Jumanji");
@@ -137,8 +131,7 @@ public class Movie {
 		adventurousMovieOptions.add(adventurousMovie9);
 		adventurousMovieOptions.add(adventurousMovie10);
 
-		String moods = myObj.nextLine(); // Read user input
-		System.out.println("how many suggestions would you like");
+
 		int numberOfMovies = myObj.nextInt();
 		if (moods.equalsIgnoreCase("happy")) {
 			for (int i = 0; i < numberOfMovies; i++)
@@ -149,7 +142,7 @@ public class Movie {
 		} else if (moods.equalsIgnoreCase("adventurous")) {
 			for (int i = 0; i < numberOfMovies; i++)
 				System.out.println(adventurousMovieOptions.get(i));
-		} else {System.out.println ("You chose other, sorry I cant find more movies right now, please check back later!" );} 
+		} else {System.out.println ("Sorry I cant find more movies right now, please check back later!" );} 
 	}
 
 }
