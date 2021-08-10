@@ -149,7 +149,7 @@ public class Movie {
 		} else if (moods.equalsIgnoreCase("adventurous")) {
 			for (int i = 0; i < numberOfMovies; i++)
 				System.out.println(adventurousMovieOptions.get(i));
-		}
+		} else {System.out.println ("You chose other, sorry I cant find more movies right now, please check back later!" );} 
 	}
 
 }
