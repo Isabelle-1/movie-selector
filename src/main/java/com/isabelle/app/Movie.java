@@ -60,16 +60,26 @@ public class Movie {
 		// ask user to input mood
 		Scanner myObj = new Scanner(System.in); // Create a Scanner object
 		System.out.println("Please select a mood from the following list");
-		System.out.println("eg. happy 3");
+		System.out.println("eg. happy");
 		System.out.println("Need a laugh: happy");
 		System.out.println("Need a good cry: sad");
 		System.out.println("Want some adventure: adventurous");
-		System.out.println("Other");
+		System.out.println("Anything else: Other");
 
 		// array list to store possible movies
 		ArrayList<Movie> movieOptions = new ArrayList<Movie>();
 		Movie happyMovie1 = new Movie("happy", "Wild Hogs");
 		Movie happyMovie2 = new Movie("happy", "Grownups");
+		Movie happyMovie3 = new Movie("happy", "DeadPool");
+		Movie happyMovie4 = new Movie("happy", "DeadPool2");
+		Movie happyMovie5 = new Movie("happy", "Space Jam");
+		Movie happyMovie6 = new Movie("happy", "Home Alone");
+		Movie happyMovie7 = new Movie("happy", "Ferris Buellers Day Off");
+		Movie happyMovie8 = new Movie("happy", "Coming 2 America");
+		Movie happyMovie9 = new Movie("happy", "Just Go With It");
+		Movie happyMovie10 = new Movie("happy", "Johnny English");
+		
+		
 
 		movieOptions.add(happyMovie1);
 		movieOptions.add(happyMovie2);
