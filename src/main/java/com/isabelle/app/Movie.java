@@ -96,6 +96,16 @@ public class Movie {
 		ArrayList<Movie> sadMovieOptions = new ArrayList<Movie>();
 		Movie sadMovie1 = new Movie("sad", "The fault in our stars");
 		Movie sadMovie2 = new Movie("sad", "Paper towns");
+		Movie sadMovie3 = new Movie("sad", "The Green Mile");
+		Movie sadMovie4 = new Movie("sad", "The Boy In The Striped Pajamas");
+		Movie sadMovie5 = new Movie("sad", "Grave Of The FireFlies");
+		Movie sadMovie6 = new Movie("sad", "5 Feet Apart");
+		Movie sadMovie7 = new Movie("sad", "Marely And Me");
+		Movie sadMovie8 = new Movie("sad", "The NoteBook");
+		Movie sadMovie9 = new Movie("sad", "Me Before You");
+		Movie sadMovie10 = new Movie("sad", "Little Women");
+		
+		
 		sadMovieOptions.add(sadMovie1);
 		sadMovieOptions.add(sadMovie2);
 
