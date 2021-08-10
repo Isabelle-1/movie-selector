@@ -19,6 +19,10 @@ public class Movie {
 		this.mood = mood;
 		this.title = title;
 	}
+//empty constructor
+	public Movie() {
+		
+	}
 
 	@Override
 	public String toString() {

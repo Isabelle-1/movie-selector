@@ -12,7 +12,8 @@ public class App {
     {
         System.out.println( "Hello!" );
         
-        
+        Movie sample = new Movie("happy", "Sleeping beauty");
+        sample.Play();
       
 //    //ask user to input mood
 //        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
