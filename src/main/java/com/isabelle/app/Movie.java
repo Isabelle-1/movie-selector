@@ -113,7 +113,7 @@ public class Movie {
 		sadMovieOptions.add(sadMovie8);
 		sadMovieOptions.add(sadMovie9);
 		sadMovieOptions.add(sadMovie10);
-		
+
 		ArrayList<Movie> adventurousMovieOptions = new ArrayList<Movie>();
 		Movie adventurousMovie1 = new Movie("adventurous", "Journey To Mysterious Island");
 		Movie adventurousMovie2 = new Movie("adventurous", "Jumanji");
@@ -125,6 +125,17 @@ public class Movie {
 		Movie adventurousMovie8 = new Movie("adventurous", "The Polar Express");
 		Movie adventurousMovie9 = new Movie("adventurous", "Avatar");
 		Movie adventurousMovie10 = new Movie("adventurous", "Tarzan");
+
+		adventurousMovieOptions.add(adventurousMovie1);
+		adventurousMovieOptions.add(adventurousMovie2);
+		adventurousMovieOptions.add(adventurousMovie3);
+		adventurousMovieOptions.add(adventurousMovie4);
+		adventurousMovieOptions.add(adventurousMovie5);
+		adventurousMovieOptions.add(adventurousMovie6);
+		adventurousMovieOptions.add(adventurousMovie7);
+		adventurousMovieOptions.add(adventurousMovie8);
+		adventurousMovieOptions.add(adventurousMovie9);
+		adventurousMovieOptions.add(adventurousMovie10);
 
 		String moods = myObj.nextLine(); // Read user input
 		System.out.println("how many suggestions would you like");
