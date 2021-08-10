@@ -83,6 +83,15 @@ public class Movie {
 
 		movieOptions.add(happyMovie1);
 		movieOptions.add(happyMovie2);
+		movieOptions.add(happyMovie3);
+		movieOptions.add(happyMovie4);
+		movieOptions.add(happyMovie5);
+		movieOptions.add(happyMovie6);
+		movieOptions.add(happyMovie7);
+		movieOptions.add(happyMovie8);
+		movieOptions.add(happyMovie9);
+		movieOptions.add(happyMovie10);
+		
 
 		ArrayList<Movie> sadMovieOptions = new ArrayList<Movie>();
 		Movie sadMovie1 = new Movie("sad", "The fault in our stars");
