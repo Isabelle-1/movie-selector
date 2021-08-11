@@ -14,7 +14,6 @@ public class App {
 		Movie sample = new Movie();
 		sample.Play();
 
-
 	}
 
 }
